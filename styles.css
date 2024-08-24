@@ -170,6 +170,16 @@ input {
   color: rgb(155, 201, 64);
 }
 
+.modal-card h3 a {
+  text-decoration: none;
+  color: rgb(155, 201, 64);
+}
+
+.modal-card h3 a:visited {
+  text-decoration: none;
+  color: rgb(155, 201, 64);
+}
+
 .modal-card ul li {
   font-size: 12px;
   text-align: left;
@@ -184,6 +194,18 @@ input {
   padding: 10px;
 }
 
+.loading {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  width: 150px;
+  text-align: center;
+  margin: auto auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(155, 201, 64);
+  padding: 10px;
+}
+
 @media screen and (max-width: 750px) {
   .nav-items {
     display: none;
@@ -195,5 +217,17 @@ input {
     font-size: 15px;
     margin-right: 20px;
     cursor: pointer;
+  }
+  .loading {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 150px;
+    text-align: center;
+    margin: auto auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(155, 201, 64);
+    padding: 10px;
+    font-size: 14px;
   }
 }
